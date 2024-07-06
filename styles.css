@@ -14,6 +14,8 @@ body{
     display: flex;
    justify-content: space-between;
     align-items: center;
+    margin:  0px 200px;
+   
 }
 
 .nav-title{
@@ -25,16 +27,19 @@ body{
 nav > ul{
     display: flex;
     align-items: center;
+    
 }
 
 nav li {
     list-style:none ;
     margin-right:50px ;
+    justify-content:space-between ;
 }
 
 nav a{
     text-decoration: none;
     color: rgba(52, 38, 5, 0.937);
+    align-items: ;
 }
 .btn-primary{
     border-radius: 5px;
@@ -42,9 +47,25 @@ nav a{
     color:white ;
     border: 0;
     font-size:20px ;
-    font-style: normal;
     font-weight:700 ;
-    padding:15px 36px ;
-   
+    padding:15px 30px ;
+}
+
+/*header releted style*/
+.header{
+    background-color: aliceblue;
+
+
+
+}
+.bann{
+    padding: 30px  30px 30px 150px ;
+    display: flex;
+    align-items: center;
+}
+
+  .bann .profile-pic{ 
+    width: 500px;
+
 
 }
