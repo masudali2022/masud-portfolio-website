@@ -145,12 +145,12 @@ main{
    
     padding: 30px;
     border-radius: 5px;
-    background: #FFF;
+    background: rgba(250, 251, 251, 0.86);
     box-shadow: 0px 6px 50px 0px;
  }
 
  .skill-description{
-   
+
     
  }
 
@@ -165,4 +165,20 @@ main{
     font-weight: 700;
 }
 
+.resome-container{
+    display: flex;
+    gap: 50px;
+}
+.resome-item-institute, .resome-item-descrition{
+    color: #757575;
+}
+
+.resome-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resome-container hr {
+    margin: 30px;
+}
 
